@@ -1,0 +1,35 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* common style or utilities */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* header banner style */
+.header-banner {
+    background-color: #264653;
+}
+.header-banner .banner-sm-title {
+    font-size: 14px;
+    font-weight: 300;
+}
+.header-banner h1 {
+    color: #f8f9fa;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 42px;
+}
+.header-banner .banner-details {
+    color: #E0E0E0;
+    font-weight: 300;
+}
+.btn-banner {
+    background-color: #E76F51;
+    font-weight: 500;
+}
+.banner-image img {
+    width: 100%;
+}
