@@ -11,10 +11,7 @@ body {
 /* header banner style */
 .header-banner {
     background-color: #264653;
-}
-.header-banner .banner-sm-title {
-    font-size: 14px;
-    font-weight: 300;
+    margin-bottom: 64px;
 }
 .header-banner h1 {
     color: #f8f9fa;
@@ -30,6 +27,62 @@ body {
     background-color: #E76F51;
     font-weight: 500;
 }
-.banner-image img {
-    width: 100%;
+
+/* fetured bike style */
+.featured-bike h1 {
+    color: #000000;
+    font-size: 48px;
+    font-weight: 600;
+}
+.featured-bike .row {
+    margin-top: 110px;
+    margin-bottom: 140px;
+}
+.featured-bike p {
+    color: #E76F51;
+    font-weight: 600;
+}
+.featured-bike1, .featured-bike3 {
+    filter: grayscale(100%);
+}
+
+/* happy clients styles */
+.happy-clients h1 {
+    color: #0A0826;
+    font-size: 48px;
+    font-weight: 600;
+}
+.happy-clients .row {
+    margin-top: 35px;
+    margin-bottom: 150px;
+}
+.happy-clients .card {
+    padding: 40px 35px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+.happy-clients img {
+    width: 149px;
+}
+.happy-clients h1 span {
+    color: #E76F51;
+}
+.fa-star {
+    color: #E77C40;
+    font-size: 18.34px;
+}
+
+/* faq style */
+.faq h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+.faq span {
+    color: #E76F51;
+}
+.faq-row {
+    margin-top: 112px;
+    margin-bottom: 139px;
+}
+.faq img {
+    width: 431px;
 }
